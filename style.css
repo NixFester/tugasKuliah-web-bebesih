@@ -159,6 +159,9 @@
       aspect-ratio: 3/4; /* or 4/5 for less aggressive crop */
       object-fit: cover;
       object-position: center top; /* Focus on top part of image */
+      @media (max-width: 768px) {
+        display: none;
+      }
     }
 
     .hero-title {
